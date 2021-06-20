@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    display: block;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-color: beige;
+}
+.sign-up{
+    margin-left: 11rem;
+    margin-bottom: 3rem;
+}
+
+
+.card-body{
+    background-color: #fff;
+}
+select{
+    margin-right: -2px;
+}
+element.style {
+    width: 40rem;
+}
+.number{
+    margin:-3px;
+}
+.card-body{
+    margin-left: 12rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.btn{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    font-size:25px;
+    font-weight: 100;
+}
+a{
+    text-decoration:none!important;
+    
+}
+.card-body{
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form{
+    margin-top:16px !important;
+}
+.c {
+    padding: 15px;
+    margin-top: 30px;
+    box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .c {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+    /* background-color: white; */
+    box-shadow: 0 3px 20px 11px rgba(0, 0, 0, 0.09);
+  }
+.top-sec ,.c{
+    margin-top: -30px;
+  margin-bottom: 15px;
+}
+.form-control:hover{
+    
+    border: 1px solid rgb(98, 151, 212);
+}
+.row:hover{
+    
+    border: 1px solid rgb(98, 151, 212);
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      
+        <div class="bg-dark py-2"> 
+             .
+           </div>
+      <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#"></a>
+          <h2 class="text-white sign-up">Sign up to Continue</h2>
+          
+          <div class="collapse navbar-collapse" id="main_nav"></div>
+          <!-- navbar-collapse.// -->
+        </div>
+        <!-- container-fluid.// -->
+      </nav>
+    </header>
+
+    <main>
+        <div class="container">
+
+          <div class="card-body c" style="width: 30rem;">
+            <div class="top-sec">
+              <form class="position-relative" name="myform" onsubmit="return validation()">
+                <div class="mb-3" id="fname_div" >
+                    <label for="exampleInput" id="lebel" class="form-label" >First Name</label>
+                    <input type="text" class="form-control" name="fname" id="fname"  placeholder="Your first name">
+                    <div id="fname_error" class="text-danger font-weight-bold"></div>
+                  </div>
+                <div class="mb-3">
+                    <label for="exampleInput" id="lebel" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" name="lname"  id="lname"  placeholder="Your last name">
+                    <div id="lname_error" class="text-danger font-weight-bold"></div>
+                </div>
+                <label for="exampleInput" class="form-label">Mobile number</label>
+                    
+                    <div class="container">
+                    <div class="row" name="number">
+                       
+                 <select class="col-2">
+                    <option value="+91" name="India" selected>+91</option>
+                     <option value="+1" name="USA">+1</option>
+                     <option value="+44" name="UK">+44</option>
+
+                 </select>
+                
+                 <input type="tel" class="form col" id="mobile" name="num"> <br>
+                </div>
+                 <div id="num_error" class="text-danger font-weight-bold"></div>
+            
+                
+                </div>
+                 <div class="mb-3" >
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
+                    <div id="email_error" class="text-danger font-weight-bold"></div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" name="password" id="exampleInputPassword1">
+                    <div id="pass_error" class="text-danger font-weight-bold"></div>
+                  </div>
+
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">I agree to the <a href="#">privacy policy</a>,<a href="#">website terms</a>  and <a href="#">booking terms</a> </label>
+                  </div>
+                  
+                 
+          <button type="submit" name="submit" value="Submit" class="btn btn-dark text-white">Sign up</button>
+          
+
+              </form>
+         
+
+        </div>
+        </div>
+</div>
+
+
+    
+    <script src="script.js"></script>
+    <script src="scroll.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
