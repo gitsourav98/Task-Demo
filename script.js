@@ -4,6 +4,9 @@ function validation(){
     var num = document.forms["myform"]["num"].value;
     var email = document.forms["myform"]["email"].value;
     var passwords = document.forms["myform"]["password"].value;
+    document.getElementById("submit").addEventListener("click", function(e) {
+        e.preventDefault();
+      });
 
     // fname.addEventListener('blur', nameVerify, true);
     if(fName ===""){
